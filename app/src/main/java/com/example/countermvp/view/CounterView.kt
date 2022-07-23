@@ -9,7 +9,7 @@ interface CounterView {
     fun updateCount(count: Int)
     fun attachView(counterView: CounterView)
     fun changeTextColor()
-    fun ShortToast()
+    fun ShortToast(msg:String)
 
 
 }

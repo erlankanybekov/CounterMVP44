@@ -37,7 +37,7 @@ class Presenter {
             view.changeTextColor()
         }
         if (model.count == 10){
-            view.ShortToast()
+            view.ShortToast("Поздравляем")
         }
     }
 

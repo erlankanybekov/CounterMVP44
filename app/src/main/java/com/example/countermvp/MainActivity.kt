@@ -56,8 +56,8 @@ class MainActivity : AppCompatActivity(),CounterView {
         binding.txtCount.setTextColor(Color.GREEN)
     }
 
-    override fun ShortToast() {
-        Toast.makeText(this,"Поздравляем",Toast.LENGTH_SHORT).show()
+    override fun ShortToast(msg: String) {
+        Toast.makeText(this,msg,Toast.LENGTH_SHORT).show()
     }
 
 
